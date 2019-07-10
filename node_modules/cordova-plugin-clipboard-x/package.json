@@ -1,0 +1,75 @@
+{
+  "_from": "cordova-plugin-clipboard-x",
+  "_id": "cordova-plugin-clipboard-x@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-WJTQibfVfEJ7xK7tYZZ5mlXu7F4=",
+  "_location": "/cordova-plugin-clipboard-x",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-clipboard-x",
+    "name": "cordova-plugin-clipboard-x",
+    "escapedName": "cordova-plugin-clipboard-x",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-clipboard-x/-/cordova-plugin-clipboard-x-1.0.1.tgz",
+  "_shasum": "5894d089b7d57c427bc4aeed6196799a55eeec5e",
+  "_spec": "cordova-plugin-clipboard-x",
+  "_where": "E:\\vivek\\My Devs\\IONIC\\getQuote\\App\\beinspired",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/niconaso/cordova-plugin-clipboard-x/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-clipboard-x",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Clipboard Plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/niconaso/cordova-plugin-clipboard-x#readme",
+  "keywords": [
+    "cordova",
+    "clipboard",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "copy",
+    "paste"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-clipboard-x",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niconaso/cordova-plugin-clipboard-x.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "version": "1.0.1"
+}

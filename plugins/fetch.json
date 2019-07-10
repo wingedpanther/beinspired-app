@@ -1,0 +1,34 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-clipboard-x": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-clipboard-x"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "nl.madebymark.share": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-share"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-network-information": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-network-information"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

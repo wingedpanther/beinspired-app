@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang=“en”>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Be Inspired | Famous Quotes</title>
+    <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+    <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat,Lato' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <ion-app>
+        <ion-header>
+            <ion-toolbar color="primary">
+                <ion-title>
+                    Be Inpired
+                </ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+            <ion-grid>
+                <ion-row>
+                    <ion-col size-md="6" offset-md="3">
+                        <ion-card style="top: 20vh;">
+                            <ion-card-header>
+                                <ion-card-title>
+                                    <!-- <ion-icon name="ios-quote"></ion-icon> -->
+                                </ion-card-title>
+                            </ion-card-header>
+                            <ion-card-content>
+                                <ion-item lines="none">
+
+
+                                    <ion-label class="qte" text-wrap id="lblQuote">
+                                        <ion-icon name="ios-quote"></ion-icon>
+                                    </ion-label>
+
+                                    <!-- <ion-icon name="copy"></ion-icon> -->
+                                </ion-item>
+                                <ion-item lines="none" id="item-border">
+
+                                    <ion-label class="auth" id="lblAuth"> </ion-label>
+                                </ion-item>
+                                <!-- <ion-icon name="share"></ion-icon> -->
+                                <ion-item lines="none">
+                                    <ion-button id="copy" fill="outline" slot="end">
+                                        <ion-icon name="copy" slot="end"></ion-icon> Copy
+                                    </ion-button>
+                                    <ion-button id="share" fill="outline" slot="end">
+                                        <ion-icon name="share" slot="end"></ion-icon> share
+                                    </ion-button>
+
+                                </ion-item>
+                            </ion-card-content>
+
+                        </ion-card>
+                    </ion-col>
+                </ion-row>
+
+            </ion-grid>
+            <ion-alert-controller>
+
+        </ion-content>
+        <ion-footer>
+            <ion-row ">
+                        <ion-col size-md=" 6" offset-md="3">
+                <ion-button expand="block" id="btnget">Next</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-footer>
+    </ion-app>
+    <script src='fetchdata.js'></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
